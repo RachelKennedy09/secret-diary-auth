@@ -87,5 +87,5 @@ Rachel Kennedy
 Full Stack Integration Student, Unit 4
 UBC Software Development Bootcamp
 
-IMPORTANT:
-Please unzip before testing. The .env.example file is included so you can recreate environment variables locally.
+
+
