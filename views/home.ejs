@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Diary Home Page</title>
+</head>
+
+<body>
+    <h1> Welcome to the Secret Diary </h1>
+
+    <% if (user) { %>
+        <p> Hello <%= user.displayName %>! </p>
+        <a href="/diary">Go to your Diary</a> |
+        <a href="/logout">Logout</a>
+        <% } else { %>
+            <a href="/login">Login with Auth0</a>
+            <% } %>
+</body>
+
+</html>
